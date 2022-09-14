@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PickerController } from '@ionic/angular';
 
 @Component({
   selector: 'app-programar-viaje',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgramarViajePage implements OnInit {
 
-  constructor() { }
+  constructor(private pickerCtrl: PickerController) { }
 
+
+  
   ngOnInit() {
   }
+
+
+
 
 }
